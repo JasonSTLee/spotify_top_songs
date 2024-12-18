@@ -86,6 +86,8 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
   </tr>
 </table>
 
+---
+
 ## Metric 4) Longest Consecutive Listens in Days
 
 <img width="702" alt="Screenshot 2024-12-17 at 5 54 39 PM" src="https://github.com/user-attachments/assets/4aaa268b-aa23-472f-8143-667c24434cfd" />
@@ -110,6 +112,8 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
   </tr>
 </table>
 
+---
+
 ## Metric 5) Longest Consecutive Listens in Days
 
 <img width="684" alt="Screenshot 2024-12-17 at 7 26 23 PM" src="https://github.com/user-attachments/assets/c2918134-2c00-4c0e-bb9c-8e908504a96d" />
@@ -133,4 +137,81 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
   </tr>
 </table>
 
-## Metric 6) Longest Consecutive Listens in Days
+---
+
+## Metric 6) Highest Average Percentage Listened
+
+<img width="698" alt="Screenshot 2024-12-17 at 7 30 56 PM" src="https://github.com/user-attachments/assets/6e6c0afe-d820-4d0d-bf54-14719973cf84" />
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Reflects songs listened consistently and completely or almost completely</li>
+        <li>Highlight songs that aren't skip</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Penalizes songs with long intros or outros</li>
+        <li>Songs listened fully once could outrank songs partially listened to multiple times</li>
+        <li>Biased towards shorter songs</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Metric 7) Highest Average Percentage Listened
+
+<img width="683" alt="Screenshot 2024-12-17 at 7 35 03 PM" src="https://github.com/user-attachments/assets/58b60e6b-019c-42ac-8ab1-0feddf87a0d4" />
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Identifies songs that are listened to frequently over time</li>
+        <li>Accounts for songs that are steadily listened to rather short sporadic bursts</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Newer songs may have artificially high gaps if they haven't been saved to my library long</li>
+        <li>Misses seasonal songs or songs during specific periods in life</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Metric 8) Average Completion Rate
+
+<img width="705" alt="Screenshot 2024-12-17 at 7 39 58 PM" src="https://github.com/user-attachments/assets/31000542-f1c7-4861-8c97-2dfdd3496b9f" />
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Rewards songs that are listened to in full rather than skipped partly through</li>
+        <li>Unlike 'total minutes played' this metric focuses on how thoroughly a song is finished rather than how long the song is</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Longer songs or songs with longer intro and outros could be penalized</li>
+        <li>Focuses not on how often a song is played but how frequently it is completed</li>
+        <li>May skew towards passive listening</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
