@@ -44,6 +44,8 @@ Most minutes listened is adding up total minutes per track.
 
 <img width="704" alt="Screenshot 2024-12-17 at 5 44 54 PM" src="https://github.com/user-attachments/assets/77e63001-67cc-4ee1-8ce3-6d32db951c22" />
 
+This metric adds the total minutes listened to divided by the days since adding the song.
+
 <table>
   <tr>
     <td style="vertical-align: top; width: 50%; padding: 10px;">
@@ -69,6 +71,8 @@ Most minutes listened is adding up total minutes per track.
 ## Metric 3) Longest Consecutive Plays w/o Breaks
 
 <img width="683" alt="Screenshot 2024-12-17 at 5 51 00 PM" src="https://github.com/user-attachments/assets/c0b13b48-31db-4ea6-b733-d578cd85af1c" />
+
+This metric counts the consecutive plays (defined by listening of over 1 minute) of a song without changing songs. 
 
 <table>
   <tr>
@@ -96,6 +100,8 @@ Most minutes listened is adding up total minutes per track.
 
 <img width="702" alt="Screenshot 2024-12-17 at 5 54 39 PM" src="https://github.com/user-attachments/assets/4aaa268b-aa23-472f-8143-667c24434cfd" />
 
+This metric counts the consecutive days a song has been played (defined by listening of over 1 minute).
+
 <table>
   <tr>
     <td style="vertical-align: top; width: 50%; padding: 10px;">
@@ -118,9 +124,11 @@ Most minutes listened is adding up total minutes per track.
 
 ---
 
-## Metric 5) Longest Consecutive Listens in Days
+## Metric 5) Most First Play of the Day
 
 <img width="684" alt="Screenshot 2024-12-17 at 7 26 23 PM" src="https://github.com/user-attachments/assets/c2918134-2c00-4c0e-bb9c-8e908504a96d" />
+
+This metric counts how often a song was the first to play (defined by listening of over 1 minute) in the day.
 
 <table>
   <tr>
@@ -147,6 +155,8 @@ Most minutes listened is adding up total minutes per track.
 
 <img width="698" alt="Screenshot 2024-12-17 at 7 30 56 PM" src="https://github.com/user-attachments/assets/6e6c0afe-d820-4d0d-bf54-14719973cf84" />
 
+This metric averages the percentage listened to for all songs played.
+
 <table>
   <tr>
     <td style="vertical-align: top; width: 50%; padding: 10px;">
@@ -172,6 +182,8 @@ Most minutes listened is adding up total minutes per track.
 ## Metric 7) Highest Average Percentage Listened
 
 <img width="683" alt="Screenshot 2024-12-17 at 7 35 03 PM" src="https://github.com/user-attachments/assets/58b60e6b-019c-42ac-8ab1-0feddf87a0d4" />
+
+This metric averages the percentage listened to for all songs played.
 
 <table>
   <tr>
