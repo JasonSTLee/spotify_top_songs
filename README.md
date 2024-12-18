@@ -12,7 +12,24 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
 
 <img width="685" alt="Screenshot 2024-12-17 at 5 35 55 PM" src="https://github.com/user-attachments/assets/a9a0c752-2027-4462-b214-06e52daab7a2" />
 
-| Pros | Cons |
-|:-----------|------------:|
-| * Songs that have been on repeat are highlighted * Simple and clear metric to understand 
-| * Bias towards longer songs * Skewed by passive listening
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Reflects overall listening time</li>
+        <li>Rewards longer engagement</li>
+        <li>Simple and clear metric to understand</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Bias toward longer songs</li>
+        <li>Skewed by passive listening</li>
+        <li>Ignores repeat frequency</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
