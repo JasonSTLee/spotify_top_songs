@@ -8,7 +8,7 @@ Getting my user data required using Spotify's api with the Spotify wrapper. The 
 
 **Tech used:** Python (libraries include Pandas, Spotipy, Spotify), Postgresql, Tableau
 
-[**Tableau Dashboard**](https://public.tableau.com/app/profile/jason.lee2654/viz/SpotifyTopSongsDashboard/TopSpotifySongsDashboard))
+[**Tableau Dashboard**](https://public.tableau.com/app/profile/jason.lee2654/viz/SpotifyTopSongsDashboard/TopSpotifySongsDashboard)
 
 ## Metric 1) Most Minutes Listened
 
@@ -143,7 +143,7 @@ This metric counts how often a song was the first to play (defined by listening 
 
 ## Metric 6) Highest Average Percentage Listened
 
-<img width="704" alt="Screenshot 2024-12-18 at 2 15 37 PM" src="https://github.com/user-attachments/assets/8ce88135-4e7c-4d71-acfb-6d38075ac98f" />
+<img width="693" alt="Screenshot 2024-12-18 at 2 18 26 PM" src="https://github.com/user-attachments/assets/a02cd3a2-41e8-4dbb-a87c-2502494cad50" />
 
 This metric averages the number of times that when a song comes up, it is listened fully.
 
