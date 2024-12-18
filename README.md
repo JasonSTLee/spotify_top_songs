@@ -179,7 +179,7 @@ This metric averages the percentage listened to for all songs played.
 
 ---
 
-## Metric 7) Highest Average Percentage Listened
+## Metric 7) Avg Days Between Listens
 
 <img width="683" alt="Screenshot 2024-12-17 at 7 35 03 PM" src="https://github.com/user-attachments/assets/58b60e6b-019c-42ac-8ab1-0feddf87a0d4" />
 
