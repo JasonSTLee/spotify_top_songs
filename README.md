@@ -17,8 +17,7 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
     <td style="vertical-align: top; width: 50%; padding: 10px;">
       <strong>Pros</strong>
       <ul>
-        <li>Reflects overall listening time</li>
-        <li>Rewards longer engagement</li>
+        <li>Songs that have been on repeat are highlighted</li>
         <li>Simple and clear metric to understand</li>
       </ul>
     </td>
@@ -27,7 +26,7 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
       <ul>
         <li>Bias toward longer songs</li>
         <li>Skewed by passive listening</li>
-        <li>Ignores repeat frequency</li>
+        <li>Doesn't take into account repeat frequency</li>
       </ul>
     </td>
   </tr>
