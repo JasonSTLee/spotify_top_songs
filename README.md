@@ -4,9 +4,11 @@ Spotify's annual "Wrapped" feature showcases users' top songs, albums, and artis
 
 To get the data from your Spotify account (works with premium and free accounts) click the link [here](https://www.spotify.com/uk/account/privacy/). After up to 5 business days Spotify will email you a zip file of jsons containting streaming history, payment information, search queries and more. 
 
-Getting my user data required using [Spotify's api](https://developer.spotify.com/documentation/web-api) with the [Spotify wrapper](https://spotipy.readthedocs.io/en/2.19.0/#). The Jupyter notebook has outlined ways to use the Spotipy wrapper to retrieve user track data, and turning the Spotify json files to csv then importing to Postgresql for further analysis. 
+Getting my user data required using Spotify's api with the Spotify wrapper. The Jupyter notebook has outlined ways to use the Spotipy wrapper to retrieve user track data, and turning the Spotify json files to csv then importing to Postgresql for further analysis. 
 
 **Tech used:** Python (libraries include Pandas, Spotipy, Spotify), Postgresql, Tableau
+
+[**Tableau Dashboard**](https://public.tableau.com/app/profile/jason.lee2654/viz/SpotifyTopSongsDashboard/TopSpotifySongsDashboard))
 
 ---
 
@@ -14,7 +16,7 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
 
 Adding up total minutes per track.
 
-<img width="680" alt="Screenshot 2024-12-17 at 5 42 22 PM" src="https://github.com/user-attachments/assets/980c0500-69f0-4ca7-b751-d8e79f5cdeea" />
+<img width="678" alt="Screenshot 2024-12-18 at 2 13 28 PM" src="https://github.com/user-attachments/assets/8c7e8691-9b71-4920-b67d-744d4060a026" />
 
 This metric adds the total minutes listened to per song.
 
@@ -42,7 +44,7 @@ This metric adds the total minutes listened to per song.
 
 ## Metric 2) Most Minutes Listened per Day Since Added
 
-<img width="704" alt="Screenshot 2024-12-17 at 5 44 54 PM" src="https://github.com/user-attachments/assets/77e63001-67cc-4ee1-8ce3-6d32db951c22" />
+<img width="694" alt="Screenshot 2024-12-18 at 2 13 47 PM" src="https://github.com/user-attachments/assets/f6800d4e-4ebe-4135-b50b-64f2de568434" />
 
 This metric adds the total minutes listened to divided by the days since adding the song.
 
@@ -70,7 +72,7 @@ This metric adds the total minutes listened to divided by the days since adding 
 
 ## Metric 3) Longest Consecutive Plays w/o Breaks
 
-<img width="683" alt="Screenshot 2024-12-17 at 5 51 00 PM" src="https://github.com/user-attachments/assets/c0b13b48-31db-4ea6-b733-d578cd85af1c" />
+<img width="678" alt="Screenshot 2024-12-18 at 2 14 11 PM" src="https://github.com/user-attachments/assets/b0922b90-29ce-4e34-ba73-94a1504ec7de" />
 
 This metric counts the consecutive plays (defined by listening of over 1 minute) of a song without changing songs. 
 
@@ -98,7 +100,7 @@ This metric counts the consecutive plays (defined by listening of over 1 minute)
 
 ## Metric 4) Longest Consecutive Listens in Days
 
-<img width="702" alt="Screenshot 2024-12-17 at 5 54 39 PM" src="https://github.com/user-attachments/assets/4aaa268b-aa23-472f-8143-667c24434cfd" />
+<img width="694" alt="Screenshot 2024-12-18 at 2 14 32 PM" src="https://github.com/user-attachments/assets/baa875df-2b50-4065-bf1f-164a4e9bd7c8" />
 
 This metric counts the consecutive days a song has been played (defined by listening of over 1 minute).
 
@@ -126,7 +128,7 @@ This metric counts the consecutive days a song has been played (defined by liste
 
 ## Metric 5) Most First Play of the Day
 
-<img width="684" alt="Screenshot 2024-12-17 at 7 26 23 PM" src="https://github.com/user-attachments/assets/c2918134-2c00-4c0e-bb9c-8e908504a96d" />
+<img width="696" alt="Screenshot 2024-12-18 at 2 15 15 PM" src="https://github.com/user-attachments/assets/b90d3444-5c25-4cd5-9afa-e3b9bdc74a3e" />
 
 This metric counts how often a song was the first to play (defined by listening of over 1 minute) in the day.
 
@@ -153,7 +155,7 @@ This metric counts how often a song was the first to play (defined by listening 
 
 ## Metric 6) Highest Average Percentage Listened
 
-<img width="698" alt="Screenshot 2024-12-17 at 7 30 56 PM" src="https://github.com/user-attachments/assets/6e6c0afe-d820-4d0d-bf54-14719973cf84" />
+<img width="704" alt="Screenshot 2024-12-18 at 2 15 37 PM" src="https://github.com/user-attachments/assets/8ce88135-4e7c-4d71-acfb-6d38075ac98f" />
 
 This metric averages the number of times that when a song comes up, it is listened fully.
 
@@ -181,7 +183,7 @@ This metric averages the number of times that when a song comes up, it is listen
 
 ## Metric 7) Lowest Avg Days Between Listens
 
-<img width="683" alt="Screenshot 2024-12-17 at 7 35 03 PM" src="https://github.com/user-attachments/assets/58b60e6b-019c-42ac-8ab1-0feddf87a0d4" />
+<img width="686" alt="Screenshot 2024-12-18 at 2 16 01 PM" src="https://github.com/user-attachments/assets/fb04ae8a-c617-4760-8c7c-73aaf694db4b" />
 
 This metric averages the number of days between ful song listens.
 
@@ -208,7 +210,7 @@ This metric averages the number of days between ful song listens.
 
 ## Metric 8) Highest Average Completion Rate
 
-<img width="705" alt="Screenshot 2024-12-17 at 7 39 58 PM" src="https://github.com/user-attachments/assets/31000542-f1c7-4861-8c97-2dfdd3496b9f" />
+<img width="703" alt="Screenshot 2024-12-18 at 2 16 22 PM" src="https://github.com/user-attachments/assets/66a07f01-6387-4fc8-9745-79da02063aea" />
 
 This metric averages the percentage of how thorough a song is played, accounting for short and full listens. Not to be confused with Metric 6) Highest Average Percentage Listened - that accounts for a song's appearance rather than the song's length.
 
@@ -233,3 +235,17 @@ This metric averages the percentage of how thorough a song is played, accounting
 </table>
 
 ---
+
+# Conclusion
+
+What I learned the most was that a simple business metric such as 'Top Songs' can be defined in many ways depending on the user / business goal. Each definition - whether average duration listened, most minutes listened to per day since added, etc - offers a unique lens through which to interpret listening behavior. By diving deeper and augmenting what it means to be a top song, we're able to view different results. Some metrics have overlapping top songs, reinforcing trends and patterns while other metrics show different insights. 
+
+Ultimately there are no absolute right and wrongs. This project was to explore seamingly straight forward data and create different branches of a north star metric.
+
+# References
+
+- [Spotify's api](https://developer.spotify.com/documentation/web-api)
+- [Spotipy wrapper](https://spotipy.readthedocs.io/en/2.19.0/#)
+- [Pandas](https://pandas.pydata.org/docs/index.html)
+- [Psycopg2](https://pypi.org/project/psycopg2/)
+- [Glob](https://docs.python.org/3/library/glob.html)
