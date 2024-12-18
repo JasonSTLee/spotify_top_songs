@@ -155,7 +155,7 @@ This metric counts how often a song was the first to play (defined by listening 
 
 <img width="698" alt="Screenshot 2024-12-17 at 7 30 56 PM" src="https://github.com/user-attachments/assets/6e6c0afe-d820-4d0d-bf54-14719973cf84" />
 
-This metric averages the percentage listened to for all songs played.
+This metric averages the number of times that when a song comes up, it is listened fully.
 
 <table>
   <tr>
@@ -179,11 +179,11 @@ This metric averages the percentage listened to for all songs played.
 
 ---
 
-## Metric 7) Avg Days Between Listens
+## Metric 7) Lowest Avg Days Between Listens
 
 <img width="683" alt="Screenshot 2024-12-17 at 7 35 03 PM" src="https://github.com/user-attachments/assets/58b60e6b-019c-42ac-8ab1-0feddf87a0d4" />
 
-This metric averages the percentage listened to for all songs played.
+This metric averages the number of days between ful song listens.
 
 <table>
   <tr>
@@ -206,9 +206,11 @@ This metric averages the percentage listened to for all songs played.
 
 ---
 
-## Metric 8) Average Completion Rate
+## Metric 8) Highest Average Completion Rate
 
 <img width="705" alt="Screenshot 2024-12-17 at 7 39 58 PM" src="https://github.com/user-attachments/assets/31000542-f1c7-4861-8c97-2dfdd3496b9f" />
+
+This metric averages the percentage of how thorough a song is played, accounting for short and full listens. Not to be confused with Metric 6) Highest Average Percentage Listened - that accounts for a song's appearance rather than the song's length.
 
 <table>
   <tr>
