@@ -11,7 +11,7 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
 ## Metric 1) Most Minutes Listened
 
 <img width="685" alt="Screenshot 2024-12-17 at 5 35 55 PM" src="https://github.com/user-attachments/assets/a9a0c752-2027-4462-b214-06e52daab7a2" />
+
 | Pros | Cons |
 |:-----------|------------:|
-| [Greed-Flation](https://github.com/JasonSTLee/Greed-Flation) | 
-Python, VS Code, Jupyter Notebook, Alpha Vantage API | 
+| [Greed-Flation](https://github.com/JasonSTLee/Greed-Flation) | Python, VS Code, Jupyter Notebook, Alpha Vantage API | 
