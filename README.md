@@ -14,4 +14,5 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
 
 | Pros | Cons |
 |:-----------|------------:|
-| [Greed-Flation](https://github.com/JasonSTLee/Greed-Flation) | Python, VS Code, Jupyter Notebook, Alpha Vantage API | 
+| * Songs that have been on repeat are highlighted * Simple and clear metric to understand 
+| * Bias towards longer songs * Skewed by passive listening
