@@ -8,6 +8,8 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
 
 **Tech used:** Python (libraries include Pandas, Spotipy, Spotify), Postgresql, Tableau
 
+---
+
 ## Metric 1) Most Minutes Listened
 
 <img width="680" alt="Screenshot 2024-12-17 at 5 42 22 PM" src="https://github.com/user-attachments/assets/980c0500-69f0-4ca7-b751-d8e79f5cdeea" />
@@ -32,6 +34,8 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
   </tr>
 </table>
 
+---
+
 ## Metric 2) Most Minutes Listened per Day Since Added
 
 <img width="704" alt="Screenshot 2024-12-17 at 5 44 54 PM" src="https://github.com/user-attachments/assets/77e63001-67cc-4ee1-8ce3-6d32db951c22" />
@@ -55,6 +59,8 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
     </td>
   </tr>
 </table>
+
+---
 
 ## Metric 3) Longest Consecutive Plays w/o Breaks
 
