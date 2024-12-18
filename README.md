@@ -32,3 +32,55 @@ Getting my user data required using [Spotify's api](https://developer.spotify.co
   </tr>
 </table>
 
+## Metric 2) Most Minutes Listened per Day Since Added
+
+<img width="704" alt="Screenshot 2024-12-17 at 5 44 54 PM" src="https://github.com/user-attachments/assets/77e63001-67cc-4ee1-8ce3-6d32db951c22" />
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Highlights listening consistency over time</li>
+        <li>Reduces bias of older songs with more playtime</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Can be skewed towards songs with bouts of high listening frequency</li>
+        <li>Assumes consistent interest since date added</li>
+        <li>Doesn't distinguish between repeated listening to shorter songs and listening longer songs once</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+## Metric 3) Longest Consecutive Plays w/o Breaks
+
+<img width="683" alt="Screenshot 2024-12-17 at 5 51 00 PM" src="https://github.com/user-attachments/assets/c0b13b48-31db-4ea6-b733-d578cd85af1c" />
+
+<table>
+  <tr>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Pros</strong>
+      <ul>
+        <li>Emphasizes emotional or addictive connections to the song</li>
+        <li>Reduces bias of older songs with more playtime</li>
+      </ul>
+    </td>
+    <td style="vertical-align: top; width: 50%; padding: 10px;">
+      <strong>Cons</strong>
+      <ul>
+        <li>Doesn't capture songs that are frequently replayed across different sessions</li>
+        <li>Excludes songs that are listened to intermittently</li>
+        <li>Can be influenced by short term obsession</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+## Metric 4) 
+
+<img width="702" alt="Screenshot 2024-12-17 at 5 54 39 PM" src="https://github.com/user-attachments/assets/4aaa268b-aa23-472f-8143-667c24434cfd" />
+
