@@ -10,8 +10,6 @@ Getting my user data required using Spotify's api with the Spotify wrapper. The 
 
 [**Tableau Dashboard**](https://public.tableau.com/app/profile/jason.lee2654/viz/SpotifyTopSongsDashboard/TopSpotifySongsDashboard))
 
----
-
 ## Metric 1) Most Minutes Listened
 
 Adding up total minutes per track.
@@ -40,8 +38,6 @@ This metric adds the total minutes listened to per song.
   </tr>
 </table>
 
----
-
 ## Metric 2) Most Minutes Listened per Day Since Added
 
 <img width="694" alt="Screenshot 2024-12-18 at 2 13 47 PM" src="https://github.com/user-attachments/assets/f6800d4e-4ebe-4135-b50b-64f2de568434" />
@@ -67,8 +63,6 @@ This metric adds the total minutes listened to divided by the days since adding 
     </td>
   </tr>
 </table>
-
----
 
 ## Metric 3) Longest Consecutive Plays w/o Breaks
 
@@ -96,8 +90,6 @@ This metric counts the consecutive plays (defined by listening of over 1 minute)
   </tr>
 </table>
 
----
-
 ## Metric 4) Longest Consecutive Listens in Days
 
 <img width="694" alt="Screenshot 2024-12-18 at 2 14 32 PM" src="https://github.com/user-attachments/assets/baa875df-2b50-4065-bf1f-164a4e9bd7c8" />
@@ -124,8 +116,6 @@ This metric counts the consecutive days a song has been played (defined by liste
   </tr>
 </table>
 
----
-
 ## Metric 5) Most First Play of the Day
 
 <img width="696" alt="Screenshot 2024-12-18 at 2 15 15 PM" src="https://github.com/user-attachments/assets/b90d3444-5c25-4cd5-9afa-e3b9bdc74a3e" />
@@ -150,8 +140,6 @@ This metric counts how often a song was the first to play (defined by listening 
     </td>
   </tr>
 </table>
-
----
 
 ## Metric 6) Highest Average Percentage Listened
 
@@ -179,8 +167,6 @@ This metric averages the number of times that when a song comes up, it is listen
   </tr>
 </table>
 
----
-
 ## Metric 7) Lowest Avg Days Between Listens
 
 <img width="686" alt="Screenshot 2024-12-18 at 2 16 01 PM" src="https://github.com/user-attachments/assets/fb04ae8a-c617-4760-8c7c-73aaf694db4b" />
@@ -205,8 +191,6 @@ This metric averages the number of days between ful song listens.
     </td>
   </tr>
 </table>
-
----
 
 ## Metric 8) Highest Average Completion Rate
 
